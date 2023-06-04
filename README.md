@@ -2,7 +2,7 @@
 
 Get interesting facts about numbers with this Number Trivia App
 
-[1]: Taken from [!Reso Coder](https://www.youtube.com/playlist?list=PLB6lc7nQ1n4iYGE_khpXRdJkJEp9WOech) YouTube channel. 
+[1]: Taken from [Reso Coder](https://www.youtube.com/playlist?list=PLB6lc7nQ1n4iYGE_khpXRdJkJEp9WOech) YouTube channel. 
 
 ## Flutter Clean Architecture
 Reso Coder's Flutter Clean Architecture Proposal. It shows the dependency flow (data and call flow).
