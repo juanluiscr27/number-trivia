@@ -22,9 +22,11 @@ dependencies:
 
   # Functional programming thingies
   dartz: ^0.10.1
-  # Remote API
 
-  # HTTP requests
+  # Network connectivity
+  internet_connection_checker: ^1.0.0+1
+
+  # HTTP requests API
   http: ^1.0.0
 
   # Local cache

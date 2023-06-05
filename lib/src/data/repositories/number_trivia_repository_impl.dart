@@ -2,7 +2,7 @@ import 'package:dartz/dartz.dart';
 import 'package:number_trivia/src/core/exceptions/failure.dart';
 
 import '../../core/exceptions/datasource_failures.dart';
-import '../../core/platform/network_infor.dart';
+import '../../core/network/network_info.dart';
 import '../../domain/entities/number_trivia.dart';
 import '../../domain/repositories/number_trivia_repository.dart';
 import '../datasources/number_trivia_local_data_source.dart';

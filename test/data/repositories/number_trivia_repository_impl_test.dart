@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';
-import 'package:number_trivia/src/core/platform/network_infor.dart';
+import 'package:number_trivia/src/core/network/network_info.dart';
 import 'package:number_trivia/src/data/datasources/number_trivia_local_data_source.dart';
 import 'package:number_trivia/src/data/datasources/number_trivia_remote_data_source.dart';
 import 'package:number_trivia/src/data/repositories/number_trivia_repository_impl.dart';
@@ -11,6 +11,13 @@ import 'number_trivia_repository_impl_test.mocks.dart';
   NumberTriviaRemoteDataSource,
   NumberTriviaLocalDataSource,
   NetworkInfo,
+], customMocks: [
+  MockSpec<NumberTriviaRemoteDataSource>(
+    as: #MockRemoteDataSource,
+  ),
+  MockSpec<NumberTriviaLocalDataSource>(
+    as: #MockLocalDataSource,
+  ),
 ])
 void main() {
   late NumberTriviaRepositoryImpl repository;
