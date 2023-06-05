@@ -42,6 +42,9 @@ dev_dependencies:
   # Mocking framework
   mockito: ^5.4.1
 
+  # Support for specifying test expectations
+  matcher: ^0.12.15
+
   # A build system for Dart code generation
   build_runner: ^2.4.4
 
